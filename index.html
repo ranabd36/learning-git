@@ -11,10 +11,11 @@
 <body>
     <h1>This is title</h1>
     <p>This is description</p>
+    <p>Result: <span id="result"></span></p>
 
     <script src="app.js"></script>
     <script>
-        console.log("Result: ", add(4, 5));
+        document.getElementById("result").innerText = add(4, 5);
     </script>
 </body>
 
